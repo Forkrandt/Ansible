@@ -1,1 +1,5 @@
+db_name: wordpress_db
+db_user: wp_admin
+db_password: "SuperSecretPassword123" 
+wp_domain: "my-site.com"
 
