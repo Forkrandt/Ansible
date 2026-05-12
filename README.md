@@ -1,3 +1,5 @@
 # Ansible
 Команда для запуска
-```bash ansible-playbook playbook.yml
+```bash
+ansible-playbook playbook.yml
+```
