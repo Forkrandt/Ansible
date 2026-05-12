@@ -1,1 +1,12 @@
+  apt:
+    name: apache2
+    state: present
+  apache2_module:
+    name: rewrite
+    state: present
+  notify: Restart Apache 
+  template:
+    src: vhost.conf.j2
+    dest: /etc/apache2/sites-available/wordpress.conf
+  notify: Restart Apache
 
